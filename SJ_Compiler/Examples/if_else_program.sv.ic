@@ -1,0 +1,24 @@
+
+PUSH 5
+PUSH x
+ASSIGN
+PUSH 10
+PUSH y
+ASSIGN
+CONDITION C0
+PUSH x
+PUSH y
+==
+ENDCONDITION
+IFTRUE C1
+PUSH "entered if block"
+PRINT
+PUSH x
+PRINT
+PUSH "both are equal"
+PRINT
+ENDC1
+IFFALSE C2
+PUSH "both the numers are unequal"
+PRINT
+ENDC2

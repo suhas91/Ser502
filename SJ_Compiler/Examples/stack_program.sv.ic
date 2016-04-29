@@ -1,0 +1,124 @@
+
+PUSH RESSTACK
+PUSH stackVar
+ASSIGN
+PUSH "push element onto stack"
+PRINT
+PUSH 1
+PUSH stackVar
+ASSIGNSTACK
+PUSH "push element onto stack"
+PRINT
+PUSH 2
+PUSH stackVar
+ASSIGNSTACK
+PUSH "push element onto stack"
+PRINT
+PUSH 3
+PUSH stackVar
+ASSIGNSTACK
+PUSH "push element onto stack"
+PRINT
+PUSH 4
+PUSH stackVar
+ASSIGNSTACK
+PUSH "push element onto stack"
+PRINT
+PUSH 5
+PUSH stackVar
+ASSIGNSTACK
+PUSH "push element onto stack"
+PRINT
+PUSH 6
+PUSH stackVar
+ASSIGNSTACK
+PUSH "push element onto stack"
+PRINT
+PUSH 7
+PUSH stackVar
+ASSIGNSTACK
+PUSH "push element onto stack"
+PRINT
+PUSH 8
+PUSH stackVar
+ASSIGNSTACK
+PUSH "push element onto stack"
+PRINT
+PUSH 9
+PUSH stackVar
+ASSIGNSTACK
+PUSH "push element onto stack"
+PRINT
+PUSH 10
+PUSH stackVar
+ASSIGNSTACK
+PUSH "element popped"
+PRINT
+POP stackVar
+PUSH popEle
+ASSIGN
+PUSH popEle
+PRINT
+PUSH "element popped"
+PRINT
+POP stackVar
+PUSH popEle
+ASSIGN
+PUSH popEle
+PRINT
+PUSH "element popped"
+PRINT
+POP stackVar
+PUSH popEle
+ASSIGN
+PUSH popEle
+PRINT
+PUSH "element popped"
+PRINT
+POP stackVar
+PUSH popEle
+ASSIGN
+PUSH popEle
+PRINT
+PUSH "element popped"
+PRINT
+POP stackVar
+PUSH popEle
+ASSIGN
+PUSH popEle
+PRINT
+PUSH "element popped"
+PRINT
+POP stackVar
+PUSH popEle
+ASSIGN
+PUSH popEle
+PRINT
+PUSH "element popped"
+PRINT
+POP stackVar
+PUSH popEle
+ASSIGN
+PUSH popEle
+PRINT
+PUSH "element popped"
+PRINT
+POP stackVar
+PUSH popEle
+ASSIGN
+PUSH popEle
+PRINT
+PUSH "element popped"
+PRINT
+POP stackVar
+PUSH popEle
+ASSIGN
+PUSH popEle
+PRINT
+PUSH "element popped"
+PRINT
+POP stackVar
+PUSH popEle
+ASSIGN
+PUSH popEle
+PRINT

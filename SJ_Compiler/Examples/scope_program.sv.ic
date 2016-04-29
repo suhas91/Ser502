@@ -1,0 +1,32 @@
+
+PUSH 10
+PUSH scopeofX
+ASSIGN
+BEGIN_FUNC
+FUNCTION scopeTest:testVar
+PUSH testVar
+PRINT
+PUSH 20
+PUSH scopeofY
+ASSIGN
+PUSH "global scope of X testing inside a function"
+PRINT
+PUSH scopeofX
+PRINT
+PUSH "local scope of variable Y"
+PRINT
+PUSH scopeofY
+PRINT
+END_FUNC
+PUSH "scopeTest"
+PUSH randvar
+ASSIGN
+CALL_FUNCT scopeTest:randvar
+PUSH "Try accessing  global variables scope"
+PRINT
+PUSH scopeofX
+PRINT
+PUSH "Try accessing local variables scope"
+PRINT
+PUSH scopeofY
+PRINT
